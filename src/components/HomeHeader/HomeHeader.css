@@ -113,4 +113,18 @@
     .home-header-spinner-wrapper {
         height: 25vh;
     }
+
+    @keyframes headingSlideIn {
+        from {
+            right: 100%;
+        }
+    
+        40% {
+            right: 100%;
+        }
+    
+        to {
+            right: 0;
+        }
+    }
 }
